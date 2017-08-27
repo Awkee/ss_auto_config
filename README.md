@@ -25,3 +25,20 @@ This URI can also be encoded to QR code. Then, just scan it with your Android / 
 
 [Click this for More](https://shadowsocks.org/en/config/quick-guide.html)
 
+
+# about autoss
+> if you always use shadowsocks to browser google / duckduckgo or youtube website , may be you will like it.
+
+## Overview
+
+`autoss.py`  can download the ss-qrcode-url image , decode it  and format the config info into the config.json file , which you can use to start the ss client service.
+
+## Requirement
+
+- `zbar` : use to decode qrcode image
+- `wget` : use to download the url image file 
+- `shadowsocks` : use to start shadowsocks client service,like sslocal script file
+
+
+
+
